@@ -1,0 +1,74 @@
+  - Installing tijsverkoyen/css-to-inline-styles (2.2.0) Loading from cache
+  - Installing doctrine/lexer (v1.0.1) Loading from cache
+  - Installing erusev/parsedown (1.6.4) Downloading: 100%
+  - Installing arcanedev/support (3.21.4) Loading from cache
+  - Installing arcanedev/settings (1.2.0) Loading from cache
+  - Installing bosnadev/repositories (0.11) Loading from cache
+  - Installing laracasts/presenter (0.2.1) Loading from cache
+  - Installing league/json-guard (0.3.3) Downloading: 100%
+  - Installing panique/pdo-debug (0.2) Downloading: 100%
+  - Installing zizaco/entrust (dev-master 6a0fd8c) Cloning 6a0fd8c3b7 from cache
+  - Installing composer/ca-bundle (1.0.9) Downloading: 100%
+  - Installing sensiolabs/security-checker (v4.1.6) Loading from cache
+  - Installing psr/http-message (1.0.1) Loading from cache
+  - Installing guzzlehttp/psr7 (1.4.2) Loading from cache
+  - Installing guzzlehttp/promises (v1.3.1) Loading from cache
+  - Installing guzzlehttp/guzzle (6.3.0) Loading from cache
+  - Installing jeroen-g/laravel-packager (dev-master 52328c4) Cloning 52328c48eb from cache
+  - Installing libern/laravel-sql-logging (dev-master 5f2a7b5) Cloning 5f2a7b5642 from cache
+  - Installing maximebf/debugbar (1.13.1) Loading from cache
+  - Installing barryvdh/laravel-debugbar (v2.4.3) Loading from cache
+  - Installing symfony/class-loader (v3.3.13) Loading from cache
+  - Installing barryvdh/reflection-docblock (v2.0.4) Loading from cache
+  - Installing barryvdh/laravel-ide-helper (v2.4.1) Loading from cache
+  - Installing caffeinated/flash (v3.0.1) Downloading: 100%
+  - Installing laravelcollective/html (v5.3.2) Loading from cache
+  - Installing caffeinated/menus (v3.0.4) Downloading: 100%
+  - Installing caffeinated/modules (v4.1.6) Downloading: 100%
+  - Installing caffeinated/themes (v3.0.1) Loading from cache
+  - Installing creativeorange/gravatar (1.0.10) Loading from cache
+  - Installing cocur/slugify (v2.5) Loading from cache
+  - Installing cviebrock/eloquent-sluggable (4.1.2) Loading from cache
+  - Installing phpoption/phpoption (1.5.0) Downloading: 100%
+  - Installing doctrine/annotations (v1.5.0) Loading from cache
+  - Installing phpcollection/phpcollection (0.5.0) Downloading: 100%
+  - Installing jms/metadata (1.6.0) Downloading: 100%
+  - Installing jms/parser-lib (1.0.0) Downloading: 100%
+  - Installing jms/serializer (1.9.1) Downloading: 100%
+  - Installing scrutinizer/ocular (1.4.0) Downloading: 100%
+  - Installing cviebrock/eloquent-taggable (2.0.0) Downloading: 100%
+  - Installing doctrine/collections (v1.5.0) Loading from cache
+  - Installing doctrine/cache (v1.7.1) Loading from cache
+  - Installing doctrine/common (v2.8.1) Loading from cache
+  - Installing doctrine/dbal (v2.6.2) Loading from cache
+  - Installing erusev/parsedown-extra (0.7.1) Downloading: 100%
+  - Installing filp/whoops (2.1.13) Loading from cache
+  - Installing gazsp/baum (1.1.2) Downloading: 100%
+  - Installing league/commonmark (0.13.4) Downloading: 100%
+  - Installing graham-campbell/markdown (v6.1.0) Downloading: 100%
+  - Installing hesto/core (v1.0.7) Downloading: 100%
+  - Installing hesto/multi-auth (v1.0.10) Downloading: 100%
+  - Installing kalnoy/nestedset (v4.3.0) Downloading: 100%
+  - Installing laracasts/flash (2.0.1) Loading from cache
+  - Installing league/color-extractor (0.3.2) Downloading: 100%
+  - Installing league/html-to-markdown (4.6.0) Downloading: 100%
+  - Installing maddhatter/laravel-fullcalendar (v1.3.0) Downloading: 100%
+  - Installing michelf/php-markdown (1.7.0) Loading from cache
+  - Installing prettus/laravel-validation (1.1.4) Downloading: 100%
+  - Installing prettus/l5-repository (2.6.28) Downloading: 100%
+  - Installing roumen/sitemap (v2.6.5) Downloading: 100%
+  - Installing rtconner/laravel-tagging (2.2.3) Loading from cache
+  - Installing ezyang/htmlpurifier (v4.9.3) Loading from cache
+  - Installing stevebauman/purify (v1.1.2) Downloading: 100%
+  - Installing suin/php-rss-writer (1.6.0) Downloading: 100%
+  - Installing patchwork/utf8 (v1.3.1) Loading from cache
+  - Installing anahkiasen/underscore-php (2.0.0) Loading from cache
+  - Installing anahkiasen/html-object (1.4.4) Loading from cache
+  - Installing vespakoen/menu (3.0.4) Downloading: 100%
+  - Installing yaap/theme (2.4.0) Loading from cache
+  - Installing phpoffice/phpexcel (1.8.1) Loading from cache
+  - Installing maatwebsite/excel (2.1.23) Loading from cache
+  - Installing league/fractal (0.17.0) Loading from cache
+  - Installing yajra/laravel-datatables-oracle (v6.29.1) Loading from cache
+  - Installing phpspec/php-diff (v1.0.2) Loading from cache
+  - Installing phpspec/phpspec (2.5.8) Loading from cache

@@ -1,55 +1,40 @@
 "arcanedev/settings": "^1.2",
 "barryvdh/laravel-debugbar": "^2.4",
 "barryvdh/laravel-ide-helper": "^2.4",
-
 "bosnadev/repositories": "^0.11",
 "caffeinated/flash": "^3.0",
 "caffeinated/menus": "^3.0",
 "caffeinated/themes": "^3.0",
-
 "creativeorange/gravatar": "^1.0",
 "cviebrock/eloquent-sluggable": "^4.1",
 "cviebrock/eloquent-taggable": "^2.0",
-
 "doctrine/dbal": "^2.6@dev",
 "erusev/parsedown": "^1.6",
 "erusev/parsedown-extra": "^0.7",
-
 "filp/whoops": "^2.1",
 "gazsp/baum": "^1.1",
 "graham-campbell/markdown": "^6.1",
 "guzzlehttp/guzzle": "^6.3",
-
 "hesto/multi-auth": "^1.0",
-
 "kalnoy/nestedset": "^4.3",
 "laracasts/flash": "^2.0",
 "laracasts/presenter": "^0.2",
 "laravelcollective/html": "^5.3",
 "laravel/framework": "5.3.*",
-
-
 "league/color-extractor": "^0.3",
-
 "league/html-to-markdown": "^4.6",
 "league/json-guard": "^0.3",
-
 "maatwebsite/excel": "^2.1",
 "maddhatter/laravel-fullcalendar": "^1.3",
-
 "michelf/php-markdown": "^1.7",
 "nesbot/carbon": "^1.21",
 "panique/pdo-debug": "^0.2",
-
 "prettus/l5-repository": "^2.6",
-
 "roumen/sitemap": "^2.6",
 "rtconner/laravel-tagging": "^2.2",
-
+"santigarcor/laratrust": "^5.0",
 "stevebauman/purify": "^1.1",
 "suin/php-rss-writer": "^1.6",
-
 "vespakoen/menu": "^3.0",
 "yaap/theme": "^2.4",
-"yajra/laravel-datatables-oracle": "^6.29",
-"zizaco/entrust": "dev-master#6a0fd8c3b73037b4855c6c4eaf1060788c0df1e9"
+"yajra/laravel-datatables-oracle": "^6.29"

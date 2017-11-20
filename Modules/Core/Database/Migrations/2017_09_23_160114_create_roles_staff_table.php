@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
-class CreateRoleUserTable extends Migration
+class CreateRolesStaffTable extends Migration
 {
 
     /**
@@ -14,9 +14,9 @@ class CreateRoleUserTable extends Migration
     public function up()
     {
         // Create table for associating roles to users and teams (Many To Many Polymorphic)
-        Schema::create('role_user', function (Blueprint $table) {
+        Schema::create('roles_staff', function (Blueprint $table) {
             $table->unsignedInteger('role_id');
-            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('staff_id');
             $table->string('user_type');
             $table->unsignedInteger('team_id')->nullable();
 
@@ -25,7 +25,7 @@ class CreateRoleUserTable extends Migration
             $table->foreign('team_id')->references('id')->on('teams')
                 ->onUpdate('cascade')->onDelete('cascade');
 
-            $table->unique(['user_id', 'role_id', 'user_type', 'team_id']);
+            $table->unique(['staff_id', 'role_id', 'user_type', 'team_id']);
         });
     }
 

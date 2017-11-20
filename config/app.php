@@ -188,6 +188,7 @@ return [
        * Package Service Providers...
        */
     Nwidart\Modules\LaravelModulesServiceProvider::class,
+    Laratrust\LaratrustServiceProvider::class,
       //
       /*
        * Application Service Providers...
@@ -252,12 +253,15 @@ return [
     'URL' => Illuminate\Support\Facades\URL::class,
     'Validator' => Illuminate\Support\Facades\Validator::class,
     'View' => Illuminate\Support\Facades\View::class,
+
+
+
+
     'Form' => Collective\Html\FormFacade::class,
     'Html' => Collective\Html\HtmlFacade::class,
     'Debugbar' => Barryvdh\Debugbar\Facade::class,
     'Flash' => Laracasts\Flash\Flash::class,
     'Theme' => YAAP\Theme\Facades\Theme::class,
-
     'MenuBuilder' => App\Facades\MenuBuilderFacade::class,
     'Module' => Nwidart\Modules\Facades\Module::class,
       //'Module'      => Sroutier\LESKModules\Facades\Module::class,
@@ -268,5 +272,6 @@ return [
       //'LERN'        => Tylercd100\LERN\Facades\LERN::class,
       // Commented out to force the usage of the Setting model located at app/Models/Setting.php
       //        'Setting'     => Arcanedev\Settings\Facades\Setting::class,
+    'Laratrust'   => Laratrust\LaratrustFacade::class,
   ],
 ];

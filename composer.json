@@ -51,6 +51,7 @@
     "prettus/l5-repository": "^2.6",
     "roumen/sitemap": "^2.6",
     "rtconner/laravel-tagging": "^2.2",
+    "santigarcor/laratrust": "^5.0",
     "stevebauman/purify": "^1.1",
     "suin/php-rss-writer": "^1.6",
     "vespakoen/menu": "^3.0",

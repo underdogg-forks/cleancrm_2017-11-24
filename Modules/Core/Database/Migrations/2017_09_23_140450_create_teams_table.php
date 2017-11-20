@@ -14,13 +14,13 @@ class CreateTeamsTable extends Migration
     {
         Schema::create('teams', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('name');
-            $table->boolean('status');
-            $table->integer('team_lead')->unsigned()->nullable()->index('team_lead');
-            $table->foreign('team_lead', 'teams_teamleader')->references('id')->on('staff')->onUpdate('NO ACTION')->onDelete('RESTRICT');
-            $table->boolean('assign_alert');
-            $table->string('admin_notes');
+            $table->string('name', 100)->unique();
+            $table->string('slug', 100)->unique();
+            $table->string('display_name', 100)->nullable();
+            $table->integer('team_lead_id')->unsigned()->nullable()->index('team_lead');
+            $table->foreign('team_lead_id', 'teams_teamleader')->references('id')->on('staff')->onUpdate('NO ACTION')->onDelete('RESTRICT');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

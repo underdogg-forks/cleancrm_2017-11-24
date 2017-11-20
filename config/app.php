@@ -203,7 +203,7 @@ return [
     Collective\Html\HtmlServiceProvider::class,
     Laracasts\Flash\FlashServiceProvider::class,
     YAAP\Theme\ThemeServiceProvider::class,
-    Zizaco\Entrust\EntrustServiceProvider::class,
+
     Baum\Providers\BaumServiceProvider::class,
     Creativeorange\Gravatar\GravatarServiceProvider::class,
     Arcanedev\Settings\SettingsServiceProvider::class,
@@ -257,7 +257,7 @@ return [
     'Debugbar' => Barryvdh\Debugbar\Facade::class,
     'Flash' => Laracasts\Flash\Flash::class,
     'Theme' => YAAP\Theme\Facades\Theme::class,
-    'Entrust' => Zizaco\Entrust\EntrustFacade::class,
+
     'MenuBuilder' => App\Facades\MenuBuilderFacade::class,
     'Module' => Nwidart\Modules\Facades\Module::class,
       //'Module'      => Sroutier\LESKModules\Facades\Module::class,

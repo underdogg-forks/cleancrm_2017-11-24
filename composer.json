@@ -55,8 +55,7 @@
     "suin/php-rss-writer": "^1.6",
     "vespakoen/menu": "^3.0",
     "yaap/theme": "^2.4",
-    "yajra/laravel-datatables-oracle": "^6.29",
-    "zizaco/entrust": "dev-master#6a0fd8c3b73037b4855c6c4eaf1060788c0df1e9"
+    "yajra/laravel-datatables-oracle": "^6.29"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",

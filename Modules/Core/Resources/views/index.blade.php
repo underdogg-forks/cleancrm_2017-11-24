@@ -1,4 +1,4 @@
-@extends('core::layouts.master')
+@extends('core::guestlayouts.guest')
 
 @section('content')
     <h1>Hello World</h1>

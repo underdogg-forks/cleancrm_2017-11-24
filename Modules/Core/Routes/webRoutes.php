@@ -59,7 +59,11 @@ Route::group(['middleware' => ['web']], function () {
     Breadcrumbs::register('/', function ($breadcrumbs) {
         $breadcrumbs->push('Home', route('/'));
     });
-    Route::get('/', ['as' => '/', 'uses' => 'Client\helpdesk\WelcomepageController@index']);
+
+
+    Route::get('/', 'CoreController@index');
+
+    //Route::get('/', ['as' => '/', 'uses' => 'Client\helpdesk\WelcomepageController@index']);
     Breadcrumbs::register('form', function ($breadcrumbs) {
         $breadcrumbs->push('Create Ticket', route('form'));
     });

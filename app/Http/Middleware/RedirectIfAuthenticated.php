@@ -5,8 +5,18 @@ namespace App\Http\Middleware;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 
+
+
 class RedirectIfAuthenticated
 {
+    /**
+     * The Guard implementation.
+     *
+     * @var Guard
+     */
+    protected $auth;
+
+
     /**
      * Handle an incoming request.
      *
